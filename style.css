@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .search input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+body {
+    margin: 0 25%;
+    background-color: #050505;
+}
+
+.gempa-terkini .detail-gempa span {
+    font-size: 0.7rem;
+}
+
+.gempa-terkini .detail-gempa .title p {
+    font-size: 1.2rem;
+}
+
+.gempa-terkini .detail-gempa h3,
+.menu .card-menu h3 {
+    font-size: 1.1rem;
+}
+
+.gempa-terkini .detail-gempa p,
+.menu .card-menu p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.history-gempa .list-gempa {
+    list-style: none;
+}
+
+.history-gempa .list-gempa .title p {
+    font-size: 0.9rem;
+}
+
+.history-gempa .list-gempa .desc .captions p {
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.history-gempa .list-gempa .desc .timesnap p {
+    font-size: 0.5rem;
+    font-weight: 300;
+    margin: 0;
+    /* margin-inline-start: 56px; */
+}
+
+.posko .info-posko .jmlh-posko h3,
+.posko .info-posko .posko-tersedia h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.posko .info-posko .jmlh-posko p,
+.posko .info-posko .posko-tersedia p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.posko .info-posko .jmlh-posko ph-fill,
+.posko .info-posko .posko-tersedia ph-fill {
+    font-size: 42px;
+}
+
+.posko .daftar-posko .list-posko .title span {
+    font-size: 0.9rem;
+}
+
+.posko .daftar-posko .list-posko .title p {
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.posko .daftar-posko .list-posko .title p i {
+    font-size: 10px;
+}
+
+.posko .daftar-posko .list-posko .desc span {
+    font-size: 0.8rem;
+}
+
+.posko .daftar-posko .list-posko .desc span[class="fw-light"] {
+    font-size: 0.7rem;
+}
+
+.user .login h3,
+.user .info-user h3,
+.list-user .title h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.user .login p,
+.user .info-user p,
+.list-user .title p,
+.list-user .info p,
+.user .data-user span {
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.user .login a{
+    text-decoration: none;
+    color: white;
+}
+
+.user .about p,
+.user .data-user p,
+.user .logout p,
+.user .change-pass p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 50%;
+    padding-top: 10px;
+    border-radius: 16px 16px 0 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.hero-title {
+    margin-block: 50px;
+}
+
+i {
+    font-size: 42px;
+}
+
+footer {
+    margin-bottom: 92px;
+}
+
+footer p {
+    font-size: smaller;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        margin: 0;
+    }
+
+    nav {
+        width: 95%;
+    }
+}
